@@ -36,7 +36,7 @@ void mousePressed() {
     g = g + (int)(Math.random() * 11) - 5;
     b = b + (int)(Math.random() * 11) - 5;
     startX = 0;
-    startY = 150;
+    startY = (int)(Math.random() * 301);
     endX = 0;
     endY = 150;
     o = 0;
